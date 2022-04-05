@@ -1,6 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #afffe4;
-    max-width: 900px;
+    max-width: 1080px;
 }
 
 #title, .subtitle, .post_title {
@@ -16,6 +22,32 @@ a {
 .header_image {
     width: 100%;
     border-radius: 3%;
+    border-bottom: 0;
+}
+
+#menuTopo ul {
+    border: 0;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(86, 178, 231);
+}
+
+#menuTopo ul li {
+    display: inline;
+}
+
+#menuTopo ul li a {
+    color: rgb(14, 14, 14);
+    padding: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .25s;
+}
+
+#menuTopo ul li a:hover {
+    background-color: aqua;
 }
 
 .photo {
@@ -51,7 +83,7 @@ a {
 
 .footer {
     border: 3px solid black;
-    
+
 }
 
 .contacts_list {
